@@ -24,13 +24,15 @@ body{
         width: 70px;
         height: 70px;
     }
-
+.section2{
+    padding-top: 120px;
+}
     .section2 img{
+        
         padding: 10px;
         margin: 0 auto;
         display: block;
-        width: 550px;
-        height: 200px;
+        
     
     }
     .menu{
@@ -55,8 +57,8 @@ body{
 @media (min-width:320px){
     .section2 img{
         padding-top: 90px;
-          width: 430px;
-          height: 400px;
+          width: 400px;
+          height: 350px;
       }
       .menu div {
           margin-top: 0px;
@@ -97,8 +99,8 @@ body{
 @media(min-width:1024px){
     .section2 img{
         padding-top: 0px;
-        width: 750px;
-        height: 560px;
+        width: 950px;
+        height: 550px;
     
     }
     
