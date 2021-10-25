@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background:#FFFFFF;
+    
+}
+
+/** css index inicio*/
+.section1{
+    width: 98%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .insignia{
+        width: 70px;
+       height: 70px;
+    }
+        
+    .ib{
+        width: 70px;
+        height: 70px;
+    }
+    .section2 img{
+        padding-top: 10px;
+        margin: 0 auto;
+        display: block;
+    }
+   
+    .menu{
+    
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .section1 div{
+        padding: 20px;
+    }
+    
+    
+
+
+/** css index fin*/
+ 
+ 
+@media (min-width:320px){
+  
+    .section2{
+        margin-top: -50px;
+    }
+    
+    .section2 img{
+        
+        width: 260px;
+        height: 290px;
+    
+    }
+   
+    
+    .menu div {
+        padding: 20px;
+        
+       
+    }
+    .link{
+    
+        width: 80px;
+        height: auto;
+    }
+    
+     .diploma {
+        width: 130px;
+        height: auto;
+    
+    }
+
+}
+@media(min-width:768px){
+   
+    .section2 img{
+        
+        width: 360px;
+        height: 390px;
+    
+    }
+}
+
+@media(min-width:1024px){
+    .section2{
+        margin-top: -50px;
+    }
+    .section2 img{
+        
+        width: 520px;
+        height: 550px;
+    
+    }
+  
+    .menu div {
+        margin-top: -30px;
+        padding: 5px;
+        display: flex;
+       
+    }
+   
+    .section2{
+        margin-top: -120px;
+    }
+    .link{
+    
+        width: 100px;
+        height: auto;
+    }
+    
+     .diploma {
+        width: 150px;
+        height: auto;
+    
+    }
+    
+    
+
+}

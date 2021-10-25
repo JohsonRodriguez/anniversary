@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@font-face{
+    font-family: "thanks";
+    src: url("../font/Thankyou.ttf");
+    
+}
+@font-face{
+    font-family: "Nunito";
+    src: url("../font/Nunito.ttf");
+
+}
+
+body{
+    background-color: #FFFFB9;
+background-image: linear-gradient(62deg, #FFFFB9 0%, #FFFFc1 100%);
+}
+
+.section1{
+    width: 98%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.section1 div{
+    padding: 20px;
+}
+
+.section2{
+    margin-top: -120px;
+    
+}
+
+.section2 img{
+    margin: 0 auto;
+    display: block;
+   
+
+}
+
+ 
+
+.section3{
+    margin-top: -20px;
+}
+.section3 div p{
+    
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 33px;
+}
+
+.volver{
+    padding-top: 10px;
+    font-family: "Nunito";
+    margin: 0 auto;
+    display: flex;
+    
+}
+.volver a{
+    
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+@media (min-width:320px){
+    .insignia{
+        width: 120px;
+       height: 90px;
+    }
+    
+    .ib{
+        width: 130px;
+        height: 90px;
+    }
+    .section2{
+        padding-top: 130px;
+    }
+    .section2 img{
+        
+        padding: 00px;
+        margin: 0 auto;
+        display: block;
+        width: 360px;
+        height: 75px;
+    
+    }
+    .cuerpo{
+        
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        
+    }
+    .cuerpo p {
+        padding: 20px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 18px;
+        text-align: justify;
+
+    }
+    .cuerpo img{
+        padding-left: 00px;
+        display: flex;
+        margin: 0 auto;
+        width: 200px;
+        height: 180px;
+    }
+    .menu{
+        padding-top: 0px;
+        width: 100%
+        margin: 0 auto;
+        display: block;
+        
+     }
+    
+    .menu div {
+        
+        padding: 0px;
+        display: block;
+       
+    }
+    
+    .link1{
+        margin-top: -0px;
+        margin: 0 auto;
+        display: flex;
+        width: 180px;
+        height: 170px;
+    }
+    .link2{
+        margin-top: -0px;
+        margin-left: -0px;
+        
+        display: flex;
+        width: 100%;
+        height: 300px;
+    }
+    .cuadrado1{
+        width: 160px;
+        height: 120px;
+
+    }
+    .cuadrado2{
+        width: 100px;
+        height: 120px;
+        
+    }
+    .cuadrado3{
+        padding-right: 0px;
+        width: 110px;
+        height: 120px;
+        
+    }
+    .flecha{
+        margin-top: -360px;
+        
+    }
+    .cuadrado4{
+        margin: 0 auto;
+        display: block;
+        width: 200px;
+        height: 80px;
+        
+    }
+    .link3{
+        margin: 0 auto;
+        display: block;
+        margin-top: -180px;
+        width: 200px;
+        height: 170px;
+    }
+.footer{
+    padding-top: 300px;
+}
+    .footer div p{
+        margin: 0 auto;
+        display: block;
+    }
+
+    .footer div{
+        width: 80%;
+        background-color: #ECFAFF;
+        margin: 0 auto;
+        box-shadow: 0px 0px 5px 1px blue;
+        
+
+    }
+    .p1{
+        margin: 0 auto;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    .p2{
+        text-align: center;
+    }
+   
+
+}
+@media(min-width:768px){
+   
+
+   
+}
+
+@media(min-width:1024px){
+    .insignia{
+        width: 120px;
+       height: 90px;
+    }
+    
+    .ib{
+        width: 130px;
+        height: 90px;
+    }
+    .section2{
+        padding-top: 0px;
+    }
+    .section2 img{
+        
+        padding: 10px;
+        margin: 0 auto;
+        display: block;
+        width: 720px;
+        height: 150px;
+    
+    }
+    .cuerpo{
+        
+        width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        
+    }
+    .cuerpo p {
+        padding: 20px;
+        width: 1000px;
+        margin: 0 auto;
+        font-size: 18px;
+        text-align: justify;
+
+    }
+    .cuerpo img{
+        padding-left: 50px;
+        
+        margin: 0 auto;
+        width: 230px;
+        height: 180px;
+    }
+    .menu{
+        padding-top: 30px;
+        width: 100%
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .menu div {
+        
+        padding: 5px;
+        display: flex;
+       
+    }
+    
+    .link1{
+        margin-top: -30px;
+        
+        width: 180px;
+        height: 170px;
+    }
+    .link2{
+        margin-top: -100px;
+        margin-left: -100px;
+        
+        width: 600px;
+        height: 300px;
+    }
+    .cuadrado1{
+        width: 280px;
+        height: 220px;
+
+    }
+    .cuadrado2{
+        width: 200px;
+        height: 220px;
+        
+    }
+    .cuadrado3{
+        padding-right: 10px;
+        width: 210px;
+        height: 220px;
+        
+    }
+    .flecha{
+        margin-top: -150px;
+        
+    }
+    .cuadrado4{
+        margin: 0 auto;
+        display: flex;
+        width: 300px;
+        height: 130px;
+        
+    }
+    .link3{
+        margin-top: -30px;
+        width: 200px;
+        height: 170px;
+    }
+    .footer{
+        padding-top: 0px;
+    }
+    .footer div p{
+        margin: 0 auto;
+        display: block;
+    }
+
+    .footer div{
+        width: 80%;
+        background-color: #ECFAFF;
+        margin: 0 auto;
+        box-shadow: 0px 0px 5px 1px blue;
+        
+
+    }
+    .p1{
+        margin: 0 auto;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    .p2{
+        text-align: center;
+    }
+    
+    
+
+}
